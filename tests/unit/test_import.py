@@ -5,5 +5,5 @@ import automata
 class TestVersion(unittest.TestCase):
 
     def test_version(self):
-        print("AHH", automata.__version__)
-        self.assertIsNotNone(automata.__version__)
+        print("version", automata.__version__)
+        self.assertTrue(hasattr(automata, "__version__"))
