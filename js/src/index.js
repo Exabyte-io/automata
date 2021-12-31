@@ -4,3 +4,4 @@ export class Rectangle {
         this.width = width;
     }
 }
+
