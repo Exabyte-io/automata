@@ -1,7 +1,8 @@
 # JS
-js/node_modules/**
+node_modules/**
 
 # Byte-compiled / optimized / DLL files
+**/_version.py
 __pycache__/
 *.py[cod]
 *$py.class
