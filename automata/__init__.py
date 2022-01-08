@@ -1,9 +1,5 @@
 try:
-    from importlib.metadata import version, PackageNotFoundError
-except ImportError:
-    from importlib_metadata import version, PackageNotFoundError
-
-try:
-    __version__ = version("automata")
-except PackageNotFoundError:
+    from ._version import version as __version__
+except ModuleNotFoundError:
     __version__ = None
+
