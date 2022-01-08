@@ -24,7 +24,7 @@ jobs:
         uses: actions/checkout@v2
         with:
           repository: Exabyte-io/actions
-          ref: feature/SOF-5449
+          ref: feature/SOF-5451
           token: ${{ secrets.BOT_GITHUB_TOKEN }}
           path: actions
 
@@ -50,7 +50,7 @@ jobs:
         uses: actions/checkout@v2
         with:
           repository: Exabyte-io/actions
-          ref: feature/SOF-5449
+          ref: feature/SOF-5451
           token: ${{ secrets.BOT_GITHUB_TOKEN }}
           path: actions
 
@@ -73,7 +73,7 @@ jobs:
         uses: actions/checkout@v2
         with:
           repository: Exabyte-io/actions
-          ref: feature/SOF-5449
+          ref: feature/SOF-5451
           token: ${{ secrets.BOT_GITHUB_TOKEN }}
           path: actions
 
@@ -99,7 +99,7 @@ jobs:
         uses: actions/checkout@v2
         with:
           repository: Exabyte-io/actions
-          ref: feature/SOF-5449
+          ref: feature/SOF-5451
           token: ${{ secrets.BOT_GITHUB_TOKEN }}
           path: actions
 
