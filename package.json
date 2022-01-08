@@ -1,5 +1,5 @@
 {
-    "name": "@exabyte-io/automata.js",
+    "name": "@exabyte-io/automata",
     "version": "0.0.0",
     "description": "Automated publishing sandbox",
     "scripts": {
