@@ -73,6 +73,7 @@ jobs:
           repository: Exabyte-io/actions
           token: ${{ secrets.BOT_GITHUB_TOKEN }}
           path: actions
+          ref: debug
 
       - name: Publish release
         uses: ./actions/js/publish
@@ -98,6 +99,7 @@ jobs:
           repository: Exabyte-io/actions
           token: ${{ secrets.BOT_GITHUB_TOKEN }}
           path: actions
+          ref: debug
 
       - name: Publish release
         uses: ./actions/py/publish
