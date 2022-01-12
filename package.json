@@ -1,6 +1,6 @@
 {
     "name": "@exabyte-io/automata",
-    "version": "2022.1.12-2",
+    "version": "2022.1.12-3",
     "description": "Automated publishing sandbox",
     "scripts": {
         "transpile": "babel js/src --out-dir js/lib",
