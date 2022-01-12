@@ -4,14 +4,11 @@
     "description": "Automated publishing sandbox",
     "scripts": {
         "transpile": "babel js/src --out-dir js/lib",
-        "build": "npm run transpile",
+        "prepublish": "npm run transpile",
         "test": "mocha --recursive --bail --require @babel/register/lib js/tests"
     },
     "main": "js/lib/index.js",
-    "files": [
-        "/js/src",
-        "/js/lib"
-    ],
+    "files": ["/js/lib"],
     "repository": {
         "type": "git",
         "url": "https://github.com/Exabyte-io/automata.git"
