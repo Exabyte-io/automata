@@ -3,9 +3,15 @@
     "version": "2022.1.9-0",
     "description": "Automated publishing sandbox",
     "scripts": {
-        "transpile": "mkdir -p lib; babel js/src --out-dir js/lib",
+        "transpile": "babel js/src --out-dir js/lib",
+        "postinstall": "npm run transpile",
         "test": "mocha --recursive --bail --require @babel/register/lib js/tests"
     },
+    "main": "js/lib/index.js",
+    "files": [
+        "/js/src",
+        "/js/lib"
+    ],
     "repository": {
         "type": "git",
         "url": "https://github.com/Exabyte-io/automata.git"
