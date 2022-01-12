@@ -26,6 +26,7 @@ jobs:
           repository: Exabyte-io/actions
           token: ${{ secrets.BOT_GITHUB_TOKEN }}
           path: actions
+          ref: debug
 
       - name: Run tests
         uses: ./actions/py/test
@@ -51,6 +52,7 @@ jobs:
           repository: Exabyte-io/actions
           token: ${{ secrets.BOT_GITHUB_TOKEN }}
           path: actions
+          ref: debug
 
       - name: Run tests
         uses: ./actions/js/test
