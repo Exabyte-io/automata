@@ -26,7 +26,6 @@ jobs:
           repository: Exabyte-io/actions
           token: ${{ secrets.BOT_GITHUB_TOKEN }}
           path: actions
-          ref: feature/no-commit
 
       - name: Run tests
         uses: ./actions/py/test
@@ -52,7 +51,6 @@ jobs:
           repository: Exabyte-io/actions
           token: ${{ secrets.BOT_GITHUB_TOKEN }}
           path: actions
-          ref: feature/no-commit
 
       - name: Run tests
         uses: ./actions/js/test
@@ -75,7 +73,6 @@ jobs:
           repository: Exabyte-io/actions
           token: ${{ secrets.BOT_GITHUB_TOKEN }}
           path: actions
-          ref: feature/no-commit
 
       - name: Publish release
         uses: ./actions/js/publish
@@ -101,7 +98,6 @@ jobs:
           repository: Exabyte-io/actions
           token: ${{ secrets.BOT_GITHUB_TOKEN }}
           path: actions
-          ref: feature/no-commit
 
       - name: Publish release
         uses: ./actions/py/publish
